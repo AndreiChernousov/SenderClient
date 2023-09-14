@@ -1,0 +1,17 @@
+{
+    "name": "andc/senderclient",
+    "description": "Client for sending messages to the server.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andrew_chernousov",
+            "email": "andrei.chernousov.u@gmail.com",
+            "homepage": "https://github.com/AndreiChernousov"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
