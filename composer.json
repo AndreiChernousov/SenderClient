@@ -18,5 +18,12 @@
         "psr-4": {
             "NotificationChannels\\SenderClient\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\SenderClient\\Providers\\SenderClientServiceProvider"
+            ]
+        }
     }
 }
