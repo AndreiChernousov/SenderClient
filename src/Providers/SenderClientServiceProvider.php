@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\SenderClient;
+namespace NotificationChannels\SenderClient\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
