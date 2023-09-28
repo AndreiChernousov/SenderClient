@@ -10,12 +10,6 @@ use NotificationChannels\SenderClient\Exceptions\MissingConfigurationNotificatio
 class SenderClient
 {
 
-    // const endpoint = 'http://127.0.0.1:8000/api/v1';
-
-    // const email = 'testserver@server.com';
-
-    // const password = 'sew23we7ysadqwenuygasb7qe6bd865asfqwedastfbq23481c';
-
     protected string $deviceName = '';
 
     protected string $token = '';
@@ -128,7 +122,7 @@ class SenderClient
                 'password' => $this->password,
                 'device_name' => $this->deviceName,
             ]);
-            $token = $response['data'];
+            $token = $response['data']['token'];
 
             Cache::put('SenderClientToken', $token, now()->addDays(5));
         } else {
