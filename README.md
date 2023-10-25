@@ -27,8 +27,8 @@ response (json):
 
 ```json
 {
-    "status": STATUS, // status code described below
-    "response_code": RESPONSE_CODE, // response code described below
+    "status": "STATUS", // status code described below
+    "response_code": "RESPONSE_CODE", // response code described below
     "message": "MESSAGE", // string
     "data": {
         "token": "token_string", // string
@@ -47,7 +47,7 @@ headers:
 request:
 ```json
 {
-    "recipient_id": 'some-recipient-id-string', // string
+    "recipient_id": "some-recipient-id-string", // string
     "message": "message text" // string max 4096 symbols
 }
 ```
@@ -55,8 +55,8 @@ request:
 response (json):
 ```json
 {
-    "status": STATUS, // status code described below
-    "response_code": RESPONSE_CODE, // response code described below
+    "status": "STATUS", // status code described below
+    "response_code": "RESPONSE_CODE", // response code described below
     "message": "MESSAGE"
 }
 ```
