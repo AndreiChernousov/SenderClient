@@ -1,5 +1,5 @@
 ## SenderClient
-Client for sending messages to the server.
+This Laravel package is designed for sending notifications to a gateway for subsequent processing and delivery.
 
 #### Install
 
